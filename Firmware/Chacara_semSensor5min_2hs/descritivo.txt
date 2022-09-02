@@ -1,0 +1,11 @@
+objetivo:
+criar um sistema de irrigação sem sensor de umidade do solo.
+
+Funcionamento do sistema:
+Esse sistema será responsável por ativar a irrigação poe gotejamento via válvula solenoide a ser ativada por meio de um rele.
+Os horários de Irrigação serão em looping a cada 2horas, ativando o rele por 5 minutos.
+Esses períodos e intervalos podem ser facilmente alterados via código pelo usuário.
+
+Hardware:
+O sistema será composto de um microcontrolador Arduino Nano, um módulo Rele 5VDC, um painel LCD 5V, LED's alto brilho, resistores e um stepdown 12V to 5V.
+O sistema será todo alimentado por uma fonte 12V 1.5A

@@ -1,0 +1,10 @@
+objetivo:
+criar um sistema de irrigação para a horta de meu pai.
+
+Funcionamento do sistema:
+O sistema deve ser capaz de realizar a leitura da umidade do solo a cada 4 horas.
+Alem disso o sistema será responsável por ativar a irrigação poe gotejamento via válvula solenoide a ser ativada por meio de um rele.
+
+HArdware:
+O sistema será composto de um microcontrolador Arduino Nano, um módulo Rele 5VDC, um medidor de umidade do solo Capacitivo v1.2, um painel LCD 5V, LED's alto brilho, resistores e um stepdown 12V to 5V.
+O sistema será todo alimentado por uma fonte 12V 1.5A
